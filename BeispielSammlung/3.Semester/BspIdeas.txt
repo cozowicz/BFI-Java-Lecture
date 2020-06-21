@@ -1,0 +1,5 @@
+1st Semester
+
+MAC Address parsing (loop + string parsing + ascii math + if)
+
+test

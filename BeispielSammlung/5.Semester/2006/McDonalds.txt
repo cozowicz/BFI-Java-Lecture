@@ -1,0 +1,62 @@
+Personen Verwaltung
+	eigentlich nur Namen
+
+Produkte auslesen aus .jar inkl. Gruppen
+	Burger
+	Getraenke -> Cola -> klein, gross
+
+	BilderListe so wie bei mir inkl. Effekte beim auswaehlen bzw. beim laden oder so
+
+Jede Gruppe die etwas von jemand anderem braucht, definiert gemeinsam mit den anderen ein interface.
+Dieses wird dann einmal richtig implementiert und einmal mit einer dummy impl 
+
+mind. 200-300 Zeilen Code pro student
+
+weitere Vorschlaege...
+
+
+McDonalds
+=========
+
+1. Bestellen der Personen
+2. Bestellen bei McDonald
+3. Rechnungen
+
+Aufgaben Gebiete:
+	Personen Verwaltung (RMS, Masken und Interfaces zu anderen Gruppen) 2 Leute
+		Eintragen/Austragen/Umbenennen
+		Prinzipielle User Komponente die andere Verwenden können
+	Produkt Datenbank 3 Leute
+		Objekte definieren (Hierarchie)
+		Daten aus .jar auslesen (inkl. auch erzeugen der Daten. Textfile -> .bin File mit DataOutputStream)
+		Prinzipielle Produkt Auswahl Komponente die andere Verwenden können
+	
+	Bilder Liste mit Scrolling (1 Person)
+	
+	Masken für Obige Tasks Masken für die obigen 3 Tasks
+		Speichern und auslesen von Bestellungen
+		Rechnungen erzeugen
+		Verwenden der Personen- bzw. Produktkomponenten
+
+8 Leute
+
+Kino
+====
+
+1. kino.at/film.at und imdb.com parse'n (regular expression) 
+	und mit Hilfe von DataOutputStream aufbereiten (2 Leute)
+2. Gemeinsames Interface zur Datenbasis
+3. Suche nach Kino bzw. Film
+4. Reservierung mit Hilfe einer Sitzplatzselektierung (1 Person)
+
+Daten: Kino, Filme, Beginn Zeiten, Beschreibungen (eventuell zusatzinfos von imdb, z.b. plot)
+
+Aufgben Gebiete:
+
+	Parsen (2 Leute)
+	Objekte fuer Daten und auslesen aus .jar File (2 Leute)
+		Methoden: getKinos(), getFilme(), sucheFilm(String anfang),...
+	Masken (1 Person)
+	Sitzplatzreservierung (1 Person)
+
+	Falls zu wenig: Voting von Personen...

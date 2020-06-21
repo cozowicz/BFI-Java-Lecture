@@ -1,0 +1,54 @@
+
+Kochrezept für RMI Beispiele
+============================
+ 
+
+1. Interface erzeugen (Interface ist eine Schnittstelle - keine Implementation!!!)
+   Sie ServerInterface oder ClientInterface in den Beispielen
+
+2. Interface Remote erben
+   Beim Interface muss "extends java.rmi.Remote" stehen
+
+   public interface ServerInterface extends java.rmi.Remote {
+   ...
+   }
+
+3. Alle Methoden müssen "throws RemoteException" beinhalten
+
+   public interface ServerInterface extends java.rmi.Remote {
+   ...
+   public void doSomething() throws java.rmi.RemoteException
+   ...
+   }
+
+
+4. Alle Typen welche hier übergeben werden (return Typ od. Argument) müssen ein Interface
+
+   implementieren namens: java.io.Serializable
+
+   z.b.
+
+   public class Artikel implements java.io.Serializable {
+   ...
+   }
+
+   primitive Datentypen (int, float, ...), String, ArrayList sind Serializable
+ 
+
+5. Jene Klasse die Funktionalität für andere Maschinen zur Verfügung stellt, 
+   (normallerweise der Server), muss von UnicastRemoteObject erben. 
+
+   public class Server extends UnicastRemoteObject ...
+   {
+   ...
+   }
+
+6. Die "Server" Klasse muss einen leeren default construktor besitzen
+
+   public class Server extends UnicastRemoteObject ...
+   {
+       public Server() throws java.rmi.RemoteException {
+       }
+   }
+
+7. Die Registry im main() { ... } uebernehmen (siehe main() im Server.java)

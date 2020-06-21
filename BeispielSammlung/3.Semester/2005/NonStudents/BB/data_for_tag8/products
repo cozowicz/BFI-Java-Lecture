@@ -1,0 +1,48 @@
+BigMac,big_mac,2.75,Burger
+Hamburger Royal TS,quarterpounder_ts,2.75,Burger
+Hamburger Royal mit Käse,quarterpounder_cheese,2.75,Burger
+McChicken,mcchicken,2.65,Burger
+Hamburger,hamburger,1.15,Burger
+Cheeseburger,cheeseburger,1.35,Burger
+Gemüse Mac,veggie_mac,2.30,Burger
+FishMac,fishmac,2.30,Burger
+Chicken McNuggets,mcnuggets,Chicken McNuggets,Beilage
+McCountry,mccountry,2.65,Burger
+Grilled Chicken Caprese,caprese_chicken,0,Burger
+Cappy Premium Orange 0.25l,orange,1.95,Getränke
+Coca-Cola,cok,Getränke,Getränke
+Coca-Cola Light,coke_light,Getränke,Getränke
+Fanta,fanta,Getränke,Getränke
+Sprite,sprite,Getränke,Getränke
+Nestea Pfirsich,nestea_peach,Getränke,Getränke
+Bier,nestea_peach,2.0,Getränke
+Milchshake Banane,shake_banana,Shake,Deserts
+Milchshake Erdbeer,shake_straw,Shake,Deserts
+Milchshake Vanille,shake_vanilla,Shake,Deserts
+Apfeltasche,pie_app,1.50,Deserts
+Donut Schoko,donut_choc,1.15,Deserts
+Donut Zucker,donut_sugar,1.15,Deserts
+McFlurry Bounty,mcflurry_bounty,1.50,Deserts
+McFlurry Lion,mcflurry_lion,1.50,Deserts
+McFlurry M&M's,mcflurry_mm,1.50,Deserts
+Sundae Eis-Caramel,mcsundae_cara,1.20,Deserts
+Sundae Eis-Erdbeer,mcsundae_straw,1.20,Deserts
+Sundae Eis-Schokolade,mcsundae_choc,1.20,Deserts
+Fruit & Yogurt,fruit_yogurt,0,Deserts
+Frucht Tüte,fruitbag,0,Deserts
+Crispy Chicken Caeser Salad,salad_caesar_crispy,0,Salat
+Grilled Chicken Caeser Salad,salad_caesar_grilled,0,Salat
+Crispy Chicken Ranch Salad,salad_ranch_crispy,0,Salat
+Grilled Chicken Ranch Salad,salad_ranch_grilled,0,Salat
+Garten Salat,salad_garden,1.50,Salat
+Pommes Frites,fries,Pommes,Beilage
+Café Cool,coffee_ice,Cafe,Getränke
+Café Latte,cafe_au_lait,Cafe,Getränke
+Cappucino,capp,Cafe,Getränke
+Heißes Kakaogetränk,choc,0,Getränke
+McCafé,coffe,0,Getränke
+Tee classico,tea,1.50,Getränke
+Egg McMuffin,break_mcmuff,2.15,Frühstück
+Ham & Eggs,break_ham,2.50,Frühstück
+McCroissant,break_mccroiss,2.15,Frühstück
+Wiener Frühstück,break_vienna,2.50,Frühstück

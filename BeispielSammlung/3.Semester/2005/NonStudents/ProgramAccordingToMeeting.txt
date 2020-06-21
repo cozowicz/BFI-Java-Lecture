@@ -1,0 +1,4 @@
+Die UE soll weiterhin parallel zur VO ablaufen. Die UE soll 1 Woche später starten (dies wurde bei Jürgen angefragt). Parallel zur VO und UE soll es ein Tutorium geben, in dem ein höhersemestriger Student die Beispiele des Programmierpraktikums nochmals durchbespricht. (Dies wurde bei der Studiengangsleitung angefragt).
+Es gibt 2 Zwischentests (á 20 Minuten) und 1 Schlussklausur. Die Gewichtung beträgt 15%:25%:60%. Wenn ein Student bei einem Zwischentest abwesend ist, wird der Prozentsatz zu den 60% dazugeschichtet. Beim 1. NT gelten allerdings 100% und die Punkte bisher verfallen.
+Alle Lektoren der LV erstellen bis Ende August ein gemeinsames Skriptum (Word) mit allen Beispielen und Musterlösungen. Alle Lektoren tragen dieselben Beispiele vor (auch zwischen BB und VZ!) Ich ersuche Martin Trummer in dieser Sache federführend zu agieren.
+

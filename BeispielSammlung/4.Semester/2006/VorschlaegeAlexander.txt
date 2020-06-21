@@ -1,0 +1,8 @@
+Exception im 3.ten Semester
+3h Einheiten besser
+
+Referenzen: Hierarchien (Alex)
+	    Listen (Markus)
+Interfaces
+
+Layer Architektur

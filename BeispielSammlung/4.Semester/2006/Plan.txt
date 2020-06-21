@@ -1,0 +1,71 @@
+1 EH: DVD Rekorder Bsp.
+	GregorianCalendar (before, add)
+	String.split() erklaeren und selber machen
+
+	Reference mail'n, durchbesprechen, umbauen!
+	Exceptions erklaeren IOException	
+
+	Gemeinsam: DVDRekorder durchbesprechen mit Fragen
+		   Exceptions beim Read Erklaeren
+		   + kleines bsp mit filenotFound
+	Aufgaben: Kalendar Ausgabe (Mo Di ... )
+		  ToDo (Aufgabe, Datum, Remaining Days, Erstellungs Datum)
+		  List: Get All Todos for a day
+			Delete Aufgabe
+			Delete Datum
+
+
+2 EH: Verkette Listen 
+	append, print
+
+	Aufgabe: remove, removeAt, getAt, insert, getLength
+
+3 EH: Array Lists mit Generics und Auto Unboxing
+	- ArrayList (Collection)
+		-> DVDRekorder auf ArrayList umbauen
+	- TreeSet (Set) Sortiert, keine doppelten, Comparable fuer Elemente)
+		-> Datei mit Namen Sortieren
+ 	- HashMap (equals, hashCode) (Map) (Tabelle mit Primary Key)
+		-> 1. Datei mit Namen + KNr
+		-> 2. Datei mit KNr + Artikel Bez.
+		-> HashMap mit Key=Namen, Value=Customer (Name, KNr, ArrayList(Artikel Bez)
+		-> Ausgabe
+
+4 EH: 	Zwischentest Verkette Listen
+	Pruefungen: 
+		trunk\Exams\3.Semester\2004\Markus	
+		Am Computer + Zeichnung am Zettel
+
+	RMI Chat Client (Interfaces und Exceptions)
+		1. login
+		2. Client Stub mitgeben
+		3. sendMsg und receiveMsg impl.
+		4. User
+	
+	Aufgabe:
+		Private Nachrichten (sendPrivateMsg + cmd Line parsen)
+			name: nachricht
+		
+
+5 EH:   RMI Reaction Spiel als Anfang und fertig machen (TODO Markus test)
+
+ 		Voting/Poll
+		eBay testen (TODO Markus)
+		Kino Booking
+
+6 EH: 	RegEx (film.at, kinoheute.at, McDonalds, TODO Clemens)
+
+		look for Reference
+
+7 EH:	Zwischentest RMI (Quote of the Day) 
+		File einlesen, eine Methode jedesmal andere Zeile (ArrayList mit Random)
+
+	RegEx
+
+	Beliebiges Bsp.
+
+8 EH:
+
+9 EH: 
+
+Prüfung: z.b. Voting/Poll mit Regex am Server und Client

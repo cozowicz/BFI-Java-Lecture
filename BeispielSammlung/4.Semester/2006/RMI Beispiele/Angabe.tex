@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\begin{document}
+
+\title{RMI \"Ubungsbeispiele}
+
+\author{Markus Cozowicz}
+
+\section{Allgemein}
+
+Der Client soll Usern die jeweilige Funktionalit\"at \"uber eine Kommando Eingabe zur Verf\"ugung stellen.\\
+
+\noindent Einlesen von Kommandozeile:\\
+\begin{verbatim}
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+\end{verbatim}
+
+% \section{Auslesen einer Datei}
+% \section{EBay - Mitsteigern}
+
+\section{Forum}
+
+\subsection{Server}
+
+Bietet Client folgende Funktionen
+
+\begin{itemize}
+	\item Auflistung von Themen
+	\item Auflistung von Postings zu einem Thema
+	\item Post'n eines Eintrags zu einem Thema.
+	      Existiert das Thema des neuen Postings nicht, wird es zur Liste der Themen hinzugef\"ugt.
+\end{itemize}
+
+\subsection{Client}
+
+Jeweils passende Ein-/Ausgaben zu den Server Funktionen.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\section{Voting}
+
+\subsection{Server}
+
+Bietet Clients folgende Funktionen
+
+\begin{itemize}
+	\item Bereitstellung von Fragen aus einer Datei. Die Datei soll jeweils Zeilenweise Fragen beinhalten.
+	\item Abstimmen f\"ur eine Frage.
+	\item Bereitstellung der Fragen und den jeweils zugeh\"origen Stimmenanzahl.
+\end{itemize}
+
+\subsection{Client}
+
+\begin{itemize}
+	\item Auflistung der Fragen.
+	\item Abstimmen f\"ur eine Frage.
+	\item Auflistung des Wahlergebnis mit absoluter und prozentueller Stimmenanzahl.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,4 @@
+N 1.1.2005 9:10 11:00 ORF1 "Zeit im Bild"
+N 1.1.2005 19:30 20:00 ORF2 "Zeit im Bild"
+S 2.1.2005 10:00 11:30 RTL "Gute Zeiten, Schlechte Zeiten" 1 5
+F 14.5.2005 20:15 22:30 PRO7 "Spiderman" "Brad Pitt"

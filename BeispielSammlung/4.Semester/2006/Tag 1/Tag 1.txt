@@ -1,0 +1,51 @@
+Beispiel 1:
+DVDRekorder
+
+Beispiel 2:
+Ein ToDo besteht aus einer Aufgabe, einem Erstelldatum und einem Fälligkeitsdatum. Außerdem gibt es noch
+ein Feld in dem das Datum der letzten Änderung gespeichert ist.
+Das Erstelldatum soll automatisch bei der Instanzierung eines neuen ToDo's gesetzt 
+werden und ist bis zur nächsten Änderung auch automatisch das Datum der letzten Änderung.
+
+Ein ToDo stellt folgende Methoden zur Verfügung:
+public ToDo(String aufgabe, int dayfaellig, int monthfaellig, int yearfaellig);
+getter und setter für Aufgabe
+getter und setter für Fälligkeitsdatum
+getter für Erstelldatum, getter für Änderungsdatum
+public void print() gibt die Felder des ToDo in folgender Form aus:
+Aufgabe, erstellt am: Erstelldatum (im Format: dd.mm.jjjj)
+Zu erledigen bis: Fälligkeitsdatum (im Format: dd.mm.jjjj)
+Datum der letzten Änderung: Änderungsdatum (im Format: dd.mm.jjjj)
+
+Es ist für die Datumsfelder die Klasse Date zu verwenden.
+Beachten Sie das Sie beim Arbeiten mit den Methoden u.U. die Klasse GregorianCalendar verwenden müssen.
+
+ToDo's werden in einer Klasse ToDoList verwaltet.
+Die Klasse ToDoList stellt folgende Methoden zur Verfügung:
+public boolean addToDo(ToDo todo): Fügt ein neues ToDo in die Liste ein, wenn noch Platz ist. Liefert
+entsprechend true oder false.
+
+public boolean removeTodo(String aufgabe): Löscht das ToDo mit der entsprechenden Aufgabe und liefert dann 
+true. Liefert false, wenn es das ToDo nicht gibt.
+
+public void printToDo(int day, int month, int year): Gibt die ToDo's die an diesem
+Tag fällig sind am Bildschirm aus. Wenn kein ToDo dem Kriterium entspricht, geben 
+Sie "Kein ToDo am "Datum" fällig" aus.
+
+public void faelligafter(int day, int month, int year): Gibt alle ToDo's aus, die 
+nach dem übergebenen Datum fällig sind oder eine entsprechende Fehlermeldung.
+
+public void printList(): Gibt die Liste der ToDo's am Bildschirm aus. Nach den 
+Daten jedes ToDo's soll ein Zeilenabstand eingefügt werden und am Beginn der Liste
+soll eine sprechende Überschrift stehen.
+
+Beispiel 3:
+Kalender
+
+Schreiben Sie eine Methode, die Ihnen den Kalender eines übergebenen Monats in folgender
+Form ausgibt (sollte es der aktuelle Monat sein, dann soll der jeweils aktuelle 
+Tag mit einem Stern markiert sein):
+
+So  Mo  Di  Mi  Do  Fr  Sa
+    1   2   3   4*  5   6
+7   8   9   10  11  12  13 usw.

@@ -1,0 +1,3 @@
+Specify archive contents: add File
+Edit Runtime Configuration -> Output Path -> das .jar file
+(Achtung JBuilder macht den path kaputt)

@@ -1,0 +1,19 @@
+Getränke
+	0.25l,1.05
+	0.4l,1.50
+	0.5l,1.80
+Shake
+	0.25l,1.50
+	0.5l,2.10
+Pommes
+	small,1.05
+	regular,1.50
+	medium,1.80
+	large,1.95
+Cafe
+	classico,1.50
+	grande,1.80	
+Chicken McNuggets
+	6,2.65
+	9,3.30
+	20,6.45

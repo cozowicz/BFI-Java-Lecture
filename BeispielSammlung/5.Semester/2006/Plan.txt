@@ -1,0 +1,7 @@
+Documentation (c:\SonyEricsson\J2ME_SDK\docs\j2me\midp_2_0\index.html)
+
+GUI Elemente (Form, List, Canvas) javax.microedition.lcdui 
+CommandListener, keyPressed()
+Switch zur naechsten Seite
+Database (javax.microedition.rms,DataInputStream)
+Vector, Hashtable (java.util)

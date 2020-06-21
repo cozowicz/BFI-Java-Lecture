@@ -1,0 +1,76 @@
+Beispiel 1:
+
+DVDRekorder mit ArrayList
+
+Stellen Sie die Klasse DVDRekorder von Array auf ArrayList um. Die neue Klasse 
+DVDRekorder soll folgende Methoden besitzen und mit Generics arbeiten:
+
+Konstruktor: public DVDRekorder(int maxkapinmin);
+
+public void addSendung(Sendung s): Nimmt eine neue Sendung in die Liste auf, wenn es keine 
+Überschneidung gibt und die maxkapinmin nicht überschritten wird.
+
+public void insert(int index, Sendung s): Fügt eine neue Sendung am übergebenen Index ein.
+Es wird der Einfachheit halber keine Rücksicht auf Überschneidungen genommen.
+
+public int getDauer(): Liefert die Dauer in Minuten aller Sendungen in der Liste.
+
+public void print(): Gibt von allen Sendungen in der Liste Titel und Dauer aus.
+Bei Filmen wird zusätzlich der Hauptdarsteller ausgegeben.
+Hinweis: In den Ihnen zur Verfügung gestellten Klassen Sendung und Film wurde die
+Methode toString() der Klasse Object entsprechend überschrieben.
+
+
+Beispiel 2: 
+
+TreeSet zum Sortieren von Namen aus einer Datei.
+
+Schreiben Sie eine Klasse Namensverwaltung um Namen aus einer Datei einzulesen
+und auszugeben. Folgende Methoden sollen implementiert sein:
+
+public void readNamen(String file) throws IOException: Liest die Namen aus der 
+Datei und fügt sie in das TreeSet ein.
+
+public void print(): Gibt die Namen im TreeSet am Bildschirm aus.
+
+
+Beispiel 3:
+
+TreeSet (mit Generics) zum Einlesen und Sortieren von Artikeln (nachArtikelnummern).
+
+Schreiben Sie eine Klasse Artikelverwaltung mit folgenden Methoden:
+
+public Artikelverwaltung(): Standardkonstruktor
+
+public Artikelverwaltung(Comparator c): Konstruktor um festzulegen, ob Artikel 
+auf- oder absteigend sortiert werden sollen.
+
+public void readArtikel(String file) throws IOException: Liest Artikeldaten aus 
+einer Datei ein.
+
+public void print():Gibt Artikeldaten am Bildschirm aus.
+
+Sie müssen eine Klasse Artikel implementieren. Diese Klasse Artikel muss, um mit
+einem TreeSet verwaltet werden zu können, das Interface Comparable implementieren.
+
+Für die Verwendung des zweiten Konstruktors müssen Sie zwei Klassen implementieren, die 
+jeweils das Interface Comparator implementieren.
+
+
+Beispiel 4:
+
+Schreiben Sie eine Klasse namens HashMapDemo mit der Kundennamen mit Kundennummern
+verbunden werden. Lesen Sie die Daten aus einer Datei ein und testen Sie die verschiedenen
+Ausgabemöglichkeiten (Map.Entry, keySet(),values(), containsKey(Object key)...).
+
+
+Beispiel 5:
+
+Schreiben Sie eine Klasse ArtikelMap (mit Generics Integer und Artikel) und lesen 
+Sie die Daten aus einer Datei ein. Verwenden Sie die in Beispiel 3 implementierte
+Artikelklasse und die Datei mit den Artikeldaten aus demselben Beispiel.
+Die ArtikelMap soll Artikelnummern mit Artikelobjekten verbinden.
+
+Implementieren Sie auch eine Methode public Artikel searchArtikel(int artikelnr).
+Diese Methode liefert das Artikelobjekt zur jeweiligen Artikelnummer bzw. null
+wenn es die Artikelnummer nicht gibt.

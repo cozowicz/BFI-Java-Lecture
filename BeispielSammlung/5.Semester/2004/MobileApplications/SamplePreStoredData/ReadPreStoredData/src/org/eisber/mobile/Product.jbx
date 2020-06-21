@@ -1,0 +1,10 @@
+[PropertyInfo]
+group,String,false,false,group,group,true,<default>
+image,String,false,false,image,image,true,<default>
+name,String,false,false,name,name,true,<default>
+price,int,false,false,price,price,true,<default>
+[IconNames]
+
+
+
+

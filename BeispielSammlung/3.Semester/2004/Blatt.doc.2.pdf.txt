@@ -1,0 +1,2 @@
+nur exportiert. syntax highlighting kommt von der eclipse. ich "drucke" die docs immer über einen color postscriptdrucker in eine datei und konvertiere diese dann mit ghostscript auf pdf. den direkten weg doc -> pdf habe ich nie probiert :-)
+
